@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>weather website</title>
+  <link rel="stylesheet" href="weather-design.css">
+</head>
+<body>
+  <div class="card">
+    <div class="search-content">
+      <input id="search" type="text" placeholder="enter a city name" spellcheck="false">
+      <button id="btn"><img class="search" src="logo/download-search.png" alt="search"></button>
+    </div>
+    <div class="weather">
+      <img id="weather-icon" src="message/search-city.png" alt="search-city" class="weather-icon">
+      <h1 id="temp" class="temp">22°C</h1>
+      <h2 id="cityName" class="cityName">N/a</h2>
+      <div class="details">
+          <div class="col">
+            <img src="weather/humidity-logo.png" alt="humidity">
+            <p id="humidity" class="humidity">50%</p>
+            <p>humidity</p>
+          </div>
+          <div class="col2">
+            <img src="weather/Copilot_20250710_151622.png" alt="wind">
+            <p id="wind" class="wind">15 Km/h</p>
+            <p>wind speed</p>
+          </div>
+      </div>
+    </div>
+  </div>
+  <script src="weather.js"></script>
+</body>
+</html>
